@@ -124,7 +124,7 @@ export const contentData = {
       venue: "ICS 2024",
       year: "2024",
       authors: ["Y. D. Kumar", "et al."],
-      summary: "Novel approaches to video quality enhancement using deep learning",
+      summary: "Using modern NLP techniques to enhance information extraction from documents",
       pdf: "",
       bibtex: "",
       type: "conference"
