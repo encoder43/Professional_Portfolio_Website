@@ -117,6 +117,50 @@ export function About() {
             </motion.div>
           </div>
 
+          {/* Experience Section */}
+          {contentData.experience && contentData.experience.length > 0 && (
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6, delay: 0.3 }}
+              className="mb-12"
+            >
+              <h3 className="text-2xl font-semibold text-foreground mb-8 text-center">
+                Professional Experience
+              </h3>
+              <div className="grid md:grid-cols-2 gap-6">
+                {contentData.experience.map((exp, index) => (
+                  <motion.div
+                    key={index}
+                    initial={{ opacity: 0, y: 20 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true }}
+                    transition={{ duration: 0.5, delay: 0.1 + index * 0.1 }}
+                  >
+                    <Card className="p-6 glass-card glass-card-hover border-primary/10 h-full relative overflow-hidden group">
+                      <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+                      
+                      <div className="relative z-10">
+                        <div className="flex items-start gap-4 mb-4">
+                          <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-primary to-secondary flex items-center justify-center flex-shrink-0">
+                            <Briefcase className="text-white" size={20} />
+                          </div>
+                          <div className="flex-1">
+                            <h4 className="text-lg font-semibold text-foreground mb-1">{exp.title}</h4>
+                            <p className="text-primary font-medium mb-2">{exp.institution}</p>
+                            <p className="text-sm text-muted-foreground mb-3">{exp.period}</p>
+                          </div>
+                        </div>
+                        <p className="text-sm text-foreground/80 leading-relaxed">{exp.focus}</p>
+                      </div>
+                    </Card>
+                  </motion.div>
+                ))}
+              </div>
+            </motion.div>
+          )}
+
           {/* Quote Card */}
           <motion.div
             initial={{ opacity: 0, scale: 0.95 }}

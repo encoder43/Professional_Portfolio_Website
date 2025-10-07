@@ -84,7 +84,7 @@ export function Projects() {
           >
             <div className="inline-flex items-center gap-2 px-4 py-2 glass-card rounded-full mb-6 border border-primary/20">
               <Activity size={16} className="text-primary" />
-              <span className="text-sm text-primary font-medium">Chapter 02</span>
+              <span className="text-sm text-primary font-medium">Chapter 01</span>
             </div>
             <h2 className="text-4xl md:text-5xl mb-6 font-semibold">
               <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
@@ -92,7 +92,7 @@ export function Projects() {
               </span>
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Building production-grade ML applications — from intelligent agents to video processing systems
+              Building production-grade ML applications from intelligent agents to video processing systems.
             </p>
           </motion.div>
 

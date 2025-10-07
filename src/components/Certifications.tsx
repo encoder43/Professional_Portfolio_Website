@@ -181,13 +181,16 @@ export function Certifications() {
                   <p className="text-foreground/80 mb-2">Certificate Preview</p>
                   <p className="text-sm text-muted-foreground mb-6">
                     {selectedCert.credential
-                      ? 'Certificate document will be displayed here'
+                      ? 'Click the button below to view the certificate'
                       : 'Certificate credential information not available yet'}
                   </p>
                   {selectedCert.credential && (
-                    <Button className="bg-gradient-to-r from-primary to-secondary hover:from-primary/90 hover:to-secondary/90 text-background font-semibold hover-glow">
+                    <Button 
+                      onClick={() => window.open(selectedCert.credential, '_blank', 'noopener,noreferrer')}
+                      className="bg-gradient-to-r from-primary to-secondary hover:from-primary/90 hover:to-secondary/90 text-background font-semibold hover-glow"
+                    >
                       <ExternalLink size={16} className="mr-2" />
-                      Verify Credential
+                      View Credential
                     </Button>
                   )}
                 </div>

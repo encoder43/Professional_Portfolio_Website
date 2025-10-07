@@ -47,7 +47,7 @@ export function Footer() {
                 </span>
               </div>
               <p className="text-sm text-muted-foreground mb-6 max-w-md leading-relaxed">
-                M.Tech Student in Signal & Image Processing at NIT Rourkela. Building research-grade ML systems and pushing the boundaries of computer vision.
+                M.Tech Student in Signal & Image Processing at NIT Rourkela. Building and learning research-grade ML systems and pushing the boundaries of my personal self and computer vision.
               </p>
               <div className="flex gap-3">
                 <motion.a

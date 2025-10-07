@@ -27,15 +27,15 @@ export function Research() {
           >
             <div className="inline-flex items-center gap-2 px-4 py-2 glass-card rounded-full mb-6 border border-secondary/20">
               <FlaskConical size={16} className="text-secondary" />
-              <span className="text-sm text-secondary font-medium">Chapter 01</span>
+              <span className="text-sm text-secondary font-medium">Chapter 02</span>
             </div>
             <h2 className="text-4xl md:text-5xl mb-6 font-semibold">
               <span className="bg-gradient-to-r from-secondary via-primary to-accent bg-clip-text text-transparent">
-                Vision Research
+                Research
               </span>
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Advancing video processing through deep learning — from theory to implementation
+              Currently working on video processing through deep learning from conceptual understanding to implementation.
             </p>
           </motion.div>
 

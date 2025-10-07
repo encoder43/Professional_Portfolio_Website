@@ -14,7 +14,7 @@ export const contentData = {
     scholar: "",
     researchgate: "",
     twitter: "",
-    resume: "/resume.pdf"
+    resume: "https://drive.google.com/file/d/1kiFaGEOf1Vp16UO_aMnSVahomz2J2oVd/view?usp=sharing"
   },
   skills: {
     technical: [
@@ -241,6 +241,20 @@ export const contentData = {
       institution: "Board of Secondary Education, Telangana (BSET)",
       period: "Jun 2017 - Mar 2018",
       focus: "Grade: 9.3 GPA"
+    }
+  ],
+  experience: [
+    {
+      title: "Research Intern",
+      institution: "IIT Kharagpur",
+      period: "2024",
+      focus: "Video and Image Processing"
+    },
+    {
+      title: "Technical Team Member",
+      institution: "Navology Club",
+      period: "Sep 2022 - Jun 2023",
+      focus: "Machine learning on IoMT dataset. Worked on IoT, SDN, web and mobile app developments, fog-edge computing, machine learning and blockchain. Focused on developing solutions for healthcare sector."
     }
   ]
 } as const;
