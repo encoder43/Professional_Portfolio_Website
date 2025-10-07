@@ -88,11 +88,11 @@ export function Projects() {
             </div>
             <h2 className="text-4xl md:text-5xl mb-6 font-semibold">
               <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-                Intelligent Systems
+                Personal Projects
               </span>
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Building production-grade ML applications from intelligent agents to video processing systems.
+              Learning by building  ML applications from Agent based systems to video processing systems.
             </p>
           </motion.div>
 
